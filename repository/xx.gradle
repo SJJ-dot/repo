@@ -1,0 +1,42 @@
+
+
+static String getSimpleName(File file) {
+    return file.name.replaceAll("-","_").split("\\.")[0].toLowerCase()
+}
+
+task publishTemplate{
+    File[] files = new File("./libs").listFiles()
+    for (File file : files) {
+        String simpleName = getSimpleName(file)
+        println(simpleName + "(MavenPublication) {")
+        println("groupId = 'com.sjianjun.ext'")
+        println("artifactId ='$simpleName'")
+        println("version '0.0.1'")
+        println(" artifact('./libs/${file.name}')")
+        println("}")
+    }
+
+    for (File file : files) {
+        String simpleName = getSimpleName(file)
+        println("api 'com.sjianjun.ext:$simpleName:0.0.1'")
+    }
+}
+
+//eg:
+//apply plugin: 'maven-publish'
+//
+//publishing {
+//    publications {
+//        chardet(MavenPublication) {
+//            groupId = 'com.sjianjun.ext'
+//            artifactId ='chardet'
+//            version '0.0.1'
+//            artifact('./libs/chardet.jar')
+//        }
+//    }
+//    repositories {
+//        maven {
+//            url new File(rootDir, "repository").toURI()
+//        }
+//    }
+//}
