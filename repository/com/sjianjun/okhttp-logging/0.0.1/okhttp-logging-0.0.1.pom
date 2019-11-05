@@ -11,5 +11,11 @@
       <version>1.11.3</version>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>com.sjianjun.ext</groupId>
+      <artifactId>chardet</artifactId>
+      <version>0.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
