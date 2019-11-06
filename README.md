@@ -74,3 +74,17 @@ dependencies {
 ```groovy
 implementation 'com.sjianjun.ext:chardet:0.0.1'
 ```
+
+### 以下的库在jcenter仓库
+```groovy
+//日志工具，打印行号，写入磁盘
+implementation 'com.sjianjun:aLog:1.2.2'
+//运行时权限请求
+implementation 'com.sjianjun:permissionUtil:1.1.3'
+//将对象转换为request body
+implementation 'com.sjianjun:retrofitlib:0.0.1'
+//rx请求取消封装
+implementation 'com.sjianjun:rxutils:1.0.5'
+implementation 'com.sjianjun:scheduler:0.0.4'
+implementation 'com.sjianjun:serialize:1.0.1'
+```
