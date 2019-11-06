@@ -12,7 +12,7 @@ allprojects {
 ```
 
 ### 列表
-- okhttp http请求日志。增加字符集检测功能，针对部分接口header没返回contenttype导致日志乱码
+#### okhttp http请求日志。增加字符集检测功能，针对部分接口header没返回contenttype导致日志乱码
 ```groovy
 dependencies {
     ...
@@ -89,6 +89,46 @@ dependencies {
         Log.e(it.isGranted())
         Log.e(it)
     }
+```
+#### rxjava取消订阅封装
+- 添加依赖
+```groovy
+dependencies {
+    ...
+    implementation 'com.sjianjun:rxjava-dispose:1.1.0'
+}
+```
+
+- 示例代码
+```kotlin
+class MainActivity : AppCompatActivity(),AutoDispose {
+
+    @SuppressLint("CheckResult")
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        Log.e("test")
+        Observable.just("test key")
+            .delay(2000, TimeUnit.MILLISECONDS)
+            .doOnDispose {
+                Log.e("doOnDispose test key")
+            }
+            .compose(pause("test key", lifecycle))
+            .subscribe {
+                Log.e(it)
+            }
+        Observable.just("test key2")
+            .delay(10000, TimeUnit.MILLISECONDS)
+            .doOnDispose {
+                Log.e("doOnDispose test key2")
+            }
+            .compose(pause("test key"))
+            .subscribe {
+                Log.e(it)
+            }
+    }
+}
 ```
 ```
 ### 第三方的依赖包
