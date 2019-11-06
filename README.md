@@ -1,4 +1,4 @@
-### [字符集检测](#字符集检测)
+### [字符集检测](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
 ### 添加存储库
 - 项目根目录build.gradle添加存储库
 ```groovy
