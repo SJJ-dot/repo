@@ -69,6 +69,28 @@ dependencies {
     val test = Retrofit.Builder()
         .addConverterFactory(GsonCharsetCompatibleConverter.create())
 ```
+#### android运行时请求权限
+```groovy
+dependencies {
+    ...
+    implementation 'com.sjianjun:permission-request:1.1.4'
+    //自行添加 必须的依赖项，避免版本冲突 
+    compileOnly 'com.android.support:support-annotations:28.0.0'
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+```
+- 示例代码
+```
+```kotlin
+    PermissionUtil.requestPermissions(
+        context,
+        arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CALL_PHONE)
+    ) {
+        Log.e(it.isGranted())
+        Log.e(it)
+    }
+```
+```
 ### 第三方的依赖包
 #### 字符集检测使用的第三方库（原地址使用gradle始终加载不成功）
 ```groovy
@@ -79,8 +101,7 @@ implementation 'com.sjianjun.ext:chardet:0.0.1'
 ```groovy
 //日志工具，打印行号，写入磁盘
 implementation 'com.sjianjun:aLog:1.2.2'
-//运行时权限请求
-implementation 'com.sjianjun:permissionUtil:1.1.3'
+
 //将对象转换为request body
 implementation 'com.sjianjun:retrofitlib:0.0.1'
 //rx请求取消封装
@@ -88,5 +109,5 @@ implementation 'com.sjianjun:rxutils:1.0.5'
 implementation 'com.sjianjun:scheduler:0.0.4'
 implementation 'com.sjianjun:serialize:1.0.1'
 ```
-### 第三方库收集
+### 第三方库
 [Android 权限请求(https://github.com/yanzhenjie/AndPermission)](https://github.com/yanzhenjie/AndPermission)
