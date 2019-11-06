@@ -1,12 +1,12 @@
-- [okhttp http logging](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+- [okhttp http logging](https://github.com/lTBeL/repo/blob/master/README.md#okhttp http-logging)
 
-- [字符集检测](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+- [字符集检测](https://github.com/lTBeL/repo/blob/master/README.md#字符集检测)
 
-- [retrofit转bean自动检测字符集](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+- [retrofit类型转换，增加字符集检测功能](https://github.com/lTBeL/repo/blob/master/README.md#retrofit类型转换，增加字符集检测功能)
 
-- [android权限](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+- [android运行时请求权限](https://github.com/lTBeL/repo/blob/master/README.md#android运行时请求权限)
 
-- [rxjava取消订阅封装](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+- [rxjava取消订阅封装](https://github.com/lTBeL/repo/blob/master/README.md#rxjava取消订阅封装)
 
 
 - [第三方的依赖包](https://github.com/lTBeL/repo/blob/master/README.md#第三方的依赖包)
