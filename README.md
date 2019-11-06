@@ -1,15 +1,15 @@
-- [okhttp http logging](https://github.com/lTBeL/repo/blob/master/README.md#okhttp http-logging)
+- [okhttp http logging](https://github.com/lTBeL/repo/blob/master/README.md#okhttp-http-logging)
 
-- [字符集检测](https://github.com/lTBeL/repo/blob/master/README.md#字符集检测)
+- [字符集检测](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B)
 
-- [retrofit类型转换，增加字符集检测功能](https://github.com/lTBeL/repo/blob/master/README.md#retrofit类型转换，增加字符集检测功能)
+- [retrofit类型转换，增加字符集检测功能](https://github.com/lTBeL/repo/blob/master/README.md#retrofit%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%A2%9E%E5%8A%A0%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B%E5%8A%9F%E8%83%BD)
 
-- [android运行时请求权限](https://github.com/lTBeL/repo/blob/master/README.md#android运行时请求权限)
+- [android运行时请求权限](https://github.com/lTBeL/repo/blob/master/README.md#android%E8%BF%90%E8%A1%8C%E6%97%B6%E8%AF%B7%E6%B1%82%E6%9D%83%E9%99%90)
 
-- [rxjava取消订阅封装](https://github.com/lTBeL/repo/blob/master/README.md#rxjava取消订阅封装)
+- [rxjava取消订阅封装](https://github.com/lTBeL/repo/blob/master/README.md#rxjava%E5%8F%96%E6%B6%88%E8%AE%A2%E9%98%85%E5%B0%81%E8%A3%85)
 
 
-- [第三方的依赖包](https://github.com/lTBeL/repo/blob/master/README.md#第三方的依赖包)
+- [第三方的依赖包](https://github.com/lTBeL/repo/blob/master/README.md#%E7%AC%AC%E4%B8%89%E6%96%B9%E7%9A%84%E4%BE%9D%E8%B5%96%E5%8C%85)
 
 ### 添加存储库
 - 项目根目录build.gradle添加存储库
@@ -155,10 +155,9 @@ implementation 'com.sjianjun.ext:chardet:0.0.1'
 //日志工具，打印行号，写入磁盘
 implementation 'com.sjianjun:aLog:1.2.2'
 
-//将对象转换为request body
+//将对象转换为表单或者get请求参数
 implementation 'com.sjianjun:retrofitlib:0.0.1'
-//rx请求取消封装
-implementation 'com.sjianjun:rxutils:1.0.5'
+
 implementation 'com.sjianjun:scheduler:0.0.4'
 implementation 'com.sjianjun:serialize:1.0.1'
 ```
