@@ -1,4 +1,16 @@
-### [字符集检测](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+- [okhttp http logging](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+
+- [字符集检测](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+
+- [retrofit转bean自动检测字符集](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+
+- [android权限](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+
+- [rxjava取消订阅封装](https://github.com/lTBeL/repo/blob/master/README.md#%E5%AD%97%E7%AC%A6%E9%9B%86%E6%A3%80%E6%B5%8B-1)
+
+
+- [第三方的依赖包](https://github.com/lTBeL/repo/blob/master/README.md#第三方的依赖包)
+
 ### 添加存储库
 - 项目根目录build.gradle添加存储库
 ```groovy
@@ -13,7 +25,8 @@ allprojects {
 ```
 
 ### 列表
-#### okhttp http请求日志。增加字符集检测功能，针对部分接口header没返回contenttype导致日志乱码
+#### okhttp http-logging
+>http请求日志。增加字符集检测功能，针对部分接口header没返回contenttype导致日志乱码
 ```groovy
 dependencies {
     ...
