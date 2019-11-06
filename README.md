@@ -130,7 +130,6 @@ class MainActivity : AppCompatActivity(),AutoDispose {
     }
 }
 ```
-```
 ### 第三方的依赖包
 #### 字符集检测使用的第三方库（原地址使用gradle始终加载不成功）
 ```groovy
