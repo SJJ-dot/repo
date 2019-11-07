@@ -162,7 +162,7 @@ android{
 dependencies {
    
    ...
-    implementation('com.sjianjun:scheduler:0.0.4')
+    implementation('com.sjianjun:scheduler:1.1.0')
     ...
 }
 
