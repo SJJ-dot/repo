@@ -144,6 +144,49 @@ class MainActivity : AppCompatActivity(),AutoDispose {
     }
 }
 ```
+
+#### RxJava协程调度器
+
+- 添加依赖
+```groovy
+
+android{
+    ...
+    packagingOptions{
+        ...
+        exclude "META-INF/proguard/coroutines.pro"
+    }
+}
+
+dependencies {
+   
+   ...
+    implementation('com.sjianjun:scheduler:0.0.4')
+    ...
+}
+
+
+```
+- 示例代码
+```kotlin
+val dispose = Observable.fromCallable {
+    Log.e("${Thread.currentThread().name}")
+    "callable "
+}.map {
+    Log.e("${Thread.currentThread().name}")
+    it
+}.delay(10000,TimeUnit.MILLISECONDS,CoroutineScheduler.Main).doOnNext {
+    Log.e("${Thread.currentThread().name}")
+    it
+}.doOnTerminate {
+    Log.e("${Thread.currentThread().name}")
+}.subscribe {
+    Log.e("${Thread.currentThread().name}")
+}
+
+```
+
+
 ### 第三方的依赖包
 #### 字符集检测使用的第三方库（原地址使用gradle始终加载不成功）
 ```groovy
