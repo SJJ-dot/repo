@@ -206,4 +206,6 @@ implementation 'com.sjianjun:scheduler:0.0.4'
 implementation 'com.sjianjun:serialize:1.0.1'
 ```
 ### 第三方库
-[Android 权限请求(https://github.com/yanzhenjie/AndPermission)](https://github.com/yanzhenjie/AndPermission)
+- [Android 权限请求(https://github.com/yanzhenjie/AndPermission)](https://github.com/yanzhenjie/AndPermission)
+
+- [Flexbox for Android](https://github.com/google/flexbox-layout)
