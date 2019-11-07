@@ -8,6 +8,7 @@
 
 - [rxjava取消订阅封装](https://github.com/lTBeL/repo/blob/master/README.md#rxjava%E5%8F%96%E6%B6%88%E8%AE%A2%E9%98%85%E5%B0%81%E8%A3%85)
 
+- [RxJava协程调度器](https://github.com/lTBeL/repo#rxjava%E5%8D%8F%E7%A8%8B%E8%B0%83%E5%BA%A6%E5%99%A8)
 
 - [第三方的依赖包](https://github.com/lTBeL/repo/blob/master/README.md#%E7%AC%AC%E4%B8%89%E6%96%B9%E7%9A%84%E4%BE%9D%E8%B5%96%E5%8C%85)
 
