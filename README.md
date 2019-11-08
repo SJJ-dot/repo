@@ -80,7 +80,19 @@ dependencies {
     ...
 }
 ```
+- [retrofit接口请求参数封装，通用参数及对象转表单参数](https://github.com/lTBeL/retrofit-obj)
 
+```groovy
+dependencies {
+   ...
+    implementation 'com.sjianjun:retrofit-params:0.0.1'
+    //request
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    ...
+}
+```
 
 ### 第三方的依赖包
 #### 字符集检测使用的第三方库（原地址使用gradle始终加载不成功）
