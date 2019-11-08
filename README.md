@@ -31,8 +31,6 @@ dependencies {
     implementation 'com.sjianjun:charset-detector:0.0.1'
 }
 ```
-
-```
 - [retrofit数据格式化](https://github.com/lTBeL/okhttp-logging)
 ```groovy
 dependencies {
