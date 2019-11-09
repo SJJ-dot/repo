@@ -76,7 +76,7 @@ android{
 
 dependencies {
    ...
-    implementation('com.sjianjun:rxjava-coroutine-scheduler:0.0.4')
+    implementation('com.sjianjun:rxjava-coroutine-scheduler:0.0.5')
     ...
 }
 ```
