@@ -20,7 +20,7 @@ allprojects {
 
 - [rxjava取消订阅封装](https://github.com/lTBeL/rxjavautils)
 
-- [RxJava协程调度器](https://github.com/lTBeL/RxJavaCoroutineScheduler)
+- [RxJava协程调度器](https://github.com/lTBeL/rxjavautils)
 
 - [retrofit接口请求参数封装，通用参数及对象转表单参数](https://github.com/lTBeL/retrofit-obj)
 
