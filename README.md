@@ -33,9 +33,9 @@ implementation 'com.sjianjun.ext:chardet:0.0.1'
 ```
 
 ### 以下的库在jcenter仓库
+
+- [安卓日志工具](https://github.com/lTBeL/ALOG)
 ```groovy
-//日志工具，打印行号，写入磁盘
-implementation 'com.sjianjun:aLog:1.2.2'
 
 //将对象转换为表单或者get请求参数
 implementation 'com.sjianjun:retrofitlib:0.0.1'
