@@ -10,6 +10,9 @@ allprojects {
     }
 }
 ```
+
+- [Simple-http](https://github.com/SJJ-dot/RetrofitSimple)
+
 - [okhttp http-日志](https://github.com/SJJ-dot/retrofit-ext)
 
 - [字符集检测](https://github.com/SJJ-dot/retrofit-ext)
