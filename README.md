@@ -12,7 +12,7 @@ allprojects {
 }
 ```
 
-- [Simple-http](https://github.com/SJJ-dot/RetrofitSimple)
+- [Simple-http](https://github.com/SJJ-dot/Simple-Http)
 
 - [okhttp http-日志](https://github.com/SJJ-dot/retrofit-ext)
 
