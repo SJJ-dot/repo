@@ -30,6 +30,8 @@ allprojects {
 
 - [Java反射调用工具](https://github.com/SJJ-dot/reflect)
 
+- [kotlin协程启动扩展](https://github.com/SJJ-dot/CoroutineKtx)
+
 ### 第三方的依赖包
 #### 字符集检测使用的第三方库（原地址使用gradle始终加载不成功）
 ```groovy
