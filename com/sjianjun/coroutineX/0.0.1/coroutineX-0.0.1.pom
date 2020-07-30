@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sjianjun</groupId>
-  <artifactId>coroutine</artifactId>
+  <artifactId>coroutineX</artifactId>
   <version>0.0.1</version>
   <packaging>aar</packaging>
   <dependencies>
@@ -26,9 +26,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
-      <version>1.0.0</version>
+      <version>1.1.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
